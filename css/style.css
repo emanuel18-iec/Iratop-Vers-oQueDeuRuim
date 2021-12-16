@@ -31,8 +31,29 @@ details{
     font-weight: bold;
     padding: 1%;
     width: 65%;
-    
+    cursor: text;
 }
+
+.item-list2{
+    margin-left: 1%;
+    color:rgb(14, 48, 143);
+    font-weight: bold;
+    padding: 1%;
+}
+.item-list2 > p, .item-list2 > p:hover{
+    font-weight: normal;
+    color:rgb(10, 0, 46);
+    cursor: text;
+}
+.item-list2:hover{
+    color: rgb(40, 10, 209);
+}
+
+.item-list2:hover > summary{
+    color: rgb(40, 10, 209);
+    background-color: rgba(98, 196, 216, 0.45);;
+}
+
 
 .item-list:hover{
     color: rgb(40, 10, 209);
@@ -45,6 +66,10 @@ details{
 .item-list:hover > summary{
     color: rgb(40, 10, 209);
     background-color: rgba(98, 196, 216, 0.45);;
+}
+
+.item-list > p{
+    color: rgb(10, 0, 46);
 }
 
 .item-list > summary {
@@ -83,10 +108,16 @@ details{
     float: left;
     width: 50%;
     margin: 3%;
-    margin-top: -0.5%;
+    margin-top: 4%;
 }
 
+#imgFNI{
 
+}
+
+p{
+    line-height: 170%;
+}
 #textIN{
     line-height: 170%;
     margin-right: 3%;
